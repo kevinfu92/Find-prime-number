@@ -1,7 +1,7 @@
 # Find all prime number in range
 
-min_int = 1
-max_int= 5000
+min_int = int(input('Lower range:\n'))
+max_int= int(input('Upper range:\n'))
 prime_list = []
 if 2 in range(min_int, max_int):
     prime_list.append(2)
